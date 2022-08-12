@@ -1,0 +1,5 @@
+Given the path '/pet/findByStatus'
+And Method GET
+When the parameter is <status>
+Then status 200
+And match response =
