@@ -1,0 +1,48 @@
+<testsuite failures="1" name="karate/request/Deleteapet.feature" skipped="0" tests="3" time="1.62549">
+  <testcase classname="karate.request.Deleteapet" name="Delete a pet for Id" time="0.622938">
+    <system-out>* url url ................................................................. passed
+* def idPet = '701' ....................................................... passed
+* def responsesGet = read('classpath:karate/request/Deleteapet.feature') .. passed
+Given path 'pet' ,'idPet' ................................................. passed
+When method Delete ........................................................ passed
+Then status 404 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.Deleteapet" name="Delete a pet for Id" time="0.500419">
+    <system-out>* url url ................................................................. passed
+* def idPet = '701' ....................................................... passed
+* def responsesGet = read('classpath:karate/request/Deleteapet.feature') .. passed
+Given path 'pet' ,'idPet' ................................................. passed
+When method Delete ........................................................ passed
+Then status 404 ........................................................... passed
+* url url ................................................................. passed
+* def idPet = 'gain' ...................................................... passed
+* def responsesGet = read('classpath:karate/request/Deleteapet.feature') .. passed
+Given path 'pet' ,'idPet' ................................................. passed
+When method Delete ........................................................ passed
+Then status 404 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="karate.request.Deleteapet" name="Delete a pet for Id" time="0.502133">
+    <failure message="Deleteapet.feature:15 - status code was: 404, expected: 405, response time: 475, url: https://petstore.swagger.io/v2/pet/idPet, response: {&quot;code&quot;:404,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;java.lang.NumberFormatException: For input string: \&quot;idPet\&quot;&quot;}">* url url ................................................................. passed
+* def idPet = '701' ....................................................... passed
+* def responsesGet = read('classpath:karate/request/Deleteapet.feature') .. passed
+Given path 'pet' ,'idPet' ................................................. passed
+When method Delete ........................................................ passed
+Then status 404 ........................................................... passed
+* url url ................................................................. passed
+* def idPet = 'gain' ...................................................... passed
+* def responsesGet = read('classpath:karate/request/Deleteapet.feature') .. passed
+Given path 'pet' ,'idPet' ................................................. passed
+When method Delete ........................................................ passed
+Then status 404 ........................................................... passed
+* url url ................................................................. passed
+* def idPet = '' .......................................................... passed
+* def responsesGet = read('classpath:karate/request/Deleteapet.feature') .. passed
+Given path 'pet' ,'idPet' ................................................. passed
+When method Delete ........................................................ passed
+Then status 405 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Deleteapet.feature:15 - status code was: 404, expected: 405, response time: 475, url: https://petstore.swagger.io/v2/pet/idPet, response: {"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}&#13;
+	at ✽.Then status 405 (Deleteapet.feature:15)</failure>
+  </testcase>
+</testsuite>
