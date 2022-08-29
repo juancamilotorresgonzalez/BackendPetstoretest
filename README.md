@@ -1,7 +1,7 @@
 # Petstore Project  Juan Torres---Request Backend
 ***
 
-**_Tester Project for SpeedUpTech Academy_**
+**_Tester Project for Swagger Petstore API_**
 
 
 **_Description_**
