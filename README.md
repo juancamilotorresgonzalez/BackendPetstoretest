@@ -5,7 +5,7 @@
 
 
 **_Description_**
-test project for SpeedUp academy, This project was carried out to automate tests in karate where we test and automate backend tests for an academic and learning project where the goal is to learn how to use testing tools with different dependencies
+test project for Petstore  Swagger API REST, This project was carried out to automate tests in karate where we test and automate backend tests for an academic and learning project where the goal is to learn how to use testing tools with different dependencies
 
 
 
@@ -15,7 +15,7 @@ Dependencies
 -ex. Windows 10
 
 **_Why This Project_**
-The realization of this project was done for academic and learning purposes to learn how to automate tests in karate 
+The realization of this project was done for academic and learning purposes to learn how to automate tests in karate and cucumber
 
 
 
