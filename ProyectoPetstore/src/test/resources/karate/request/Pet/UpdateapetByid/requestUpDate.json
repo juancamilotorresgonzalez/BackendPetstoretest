@@ -1,0 +1,18 @@
+{
+  "id": 1000 ,
+  "category": {
+    "id": 1000,
+    "name": " jhon "
+  },
+  "name": "doggi",
+  "photoUrls": [
+    "pulgas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 1000,
+      "name": "chandositos"
+    }
+  ],
+  "status": "available"
+}

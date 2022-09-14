@@ -1,0 +1,17 @@
+<testsuite failures="1" name="src/test/resources/karate/request/Pet/Updateaexistingpet/Updateaexistingpet.feature" skipped="0" tests="1" time="0.024737">
+  <testcase classname="src.test.resources.karate.request.Pet.Updateaexistingpet.Updateaexistingpet" name="Check the service PUT method" time="0.024737">
+    <failure message="Updateaexistingpet.feature:11 - could not find or read file: classpath:karate/request/RequestBodyPut-upadateaexistingpet.json">* url url ................................................................. passed
+* def responsesPut = read('classpath:karate/request/ResponsePut.json') .... passed
+* def BodyRequest = read('classpath:karate/request/RequestBodyPut-upadateaexistingpet.json') . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Updateaexistingpet.feature:11 - could not find or read file: classpath:karate/request/RequestBodyPut-upadateaexistingpet.json&#13;
+	at ✽.* def BodyRequest = read('classpath:karate/request/RequestBodyPut-upadateaexistingpet.json') (Updateaexistingpet.feature:11)&#13;
+
+Given path 'pet' .......................................................... skipped
+And request BodyRequest ................................................... skipped
+When method put ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == responsesPut ........................................ skipped</failure>
+  </testcase>
+</testsuite>
