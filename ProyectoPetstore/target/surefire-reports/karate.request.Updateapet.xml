@@ -1,0 +1,16 @@
+<testsuite failures="1" name="karate/request/Updateapet.feature" skipped="0" tests="1" time="0.003172">
+  <testcase classname="karate.request.Updateapet" name="Check the service GET method" time="0.003172">
+    <failure message="Updateapet.feature:10 - could not find or read file: classpath:karate/request/ResponseGet.json">* url url ................................................................. passed
+* def responsesGet = read('classpath:karate/request/ResponseGet.json') .... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Updateapet.feature:10 - could not find or read file: classpath:karate/request/ResponseGet.json&#13;
+	at ✽.* def responsesGet = read('classpath:karate/request/ResponseGet.json') (Updateapet.feature:10)&#13;
+
+Given path 'users', '2' ................................................... skipped
+When method get ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == responsesGet ........................................ skipped
+And assert response.support.text == "To keep ReqRes free, contributions towards server costs are appreciated!" . skipped</failure>
+  </testcase>
+</testsuite>
